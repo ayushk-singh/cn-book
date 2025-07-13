@@ -1,0 +1,126 @@
+\chapter{Network Topologies \& Models}
+
+\section{Network Topology}
+
+Network topology refers to the physical or logical layout of devices in a computer network. It determines how devices are interconnected and how data flows between them. Understanding topology is crucial for network design, performance, and maintenance.
+
+\subsection{Bus Topology}
+In a bus topology, all devices are connected to a single central cable, known as the bus or backbone. Data travels in both directions along the cable.
+
+\begin{table}[H]
+\centering
+\caption{Bus Topology: Advantages and Disadvantages}
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\textbf{Advantages} & \textbf{Disadvantages} \\
+\hline
+Easy to set up and requires less cable & A fault in the main cable can bring down the entire network \\
+\hline
+Cost-effective for small networks & Performance degrades as more devices are added \\
+\hline
+Ideal for temporary networks & Limited cable length and number of devices \\
+\hline
+\end{tabularx}
+\end{table}
+
+\subsection{Star Topology}
+In a star topology, all devices are connected to a central hub or switch. Communication passes through this central node.
+
+\begin{table}[H]
+\centering
+\caption{Star Topology: Advantages and Disadvantages}
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\textbf{Advantages} & \textbf{Disadvantages} \\
+\hline
+Easy to manage and troubleshoot & If the central hub fails, the entire network goes down \\
+\hline
+Scalable – new devices can be added easily & Requires more cable than bus or ring topology \\
+\hline
+High performance under light to medium traffic & Central device adds cost \\
+\hline
+\end{tabularx}
+\end{table}
+
+\subsection{Ring Topology}
+In a ring topology, devices are connected in a circular loop. Each device has two neighbors, and data travels in one direction.
+
+\begin{table}[H]
+\centering
+\caption{Ring Topology: Advantages and Disadvantages}
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\textbf{Advantages} & \textbf{Disadvantages} \\
+\hline
+Equal access for all devices & A break in the ring can disrupt the whole network \\
+\hline
+Performs better than bus under heavy traffic & Troubleshooting can be difficult \\
+\hline
+Efficient for handling predictable traffic flow & Adding/removing devices can disrupt network \\
+\hline
+\end{tabularx}
+\end{table}
+
+\subsection{Mesh Topology}
+In a mesh topology, every device is connected to every other device. It can be full or partial mesh.
+
+\begin{table}[H]
+\centering
+\caption{Mesh Topology: Advantages and Disadvantages}
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\textbf{Advantages} & \textbf{Disadvantages} \\
+\hline
+Highly reliable and fault-tolerant & Requires a lot of cabling and ports \\
+\hline
+Data can be routed via multiple paths & Complex and expensive to set up \\
+\hline
+Suitable for critical systems (e.g., military, banking) & Difficult to maintain in large networks \\
+\hline
+\end{tabularx}
+\end{table}
+
+\subsection{Tree Topology}
+Tree topology is a combination of star and bus topologies. It has a hierarchical layout with a root node and branching segments.
+
+\begin{table}[H]
+\centering
+\caption{Tree Topology: Advantages and Disadvantages}
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\textbf{Advantages} & \textbf{Disadvantages} \\
+\hline
+Supports scalability and easy expansion & Dependent on the backbone line \\
+\hline
+Well-suited for large organizations & More cabling and configuration needed \\
+\hline
+Allows for segmentation and management & Troubleshooting can be complex \\
+\hline
+\end{tabularx}
+\end{table}
+
+\subsection{Hybrid Topology}
+Hybrid topology combines two or more different topologies to leverage their strengths and minimize weaknesses.
+
+\begin{table}[H]
+\centering
+\caption{Hybrid Topology: Advantages and Disadvantages}
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\textbf{Advantages} & \textbf{Disadvantages} \\
+\hline
+Highly flexible and customizable & Complex design and management \\
+\hline
+Scalable for large networks & Higher implementation cost \\
+\hline
+Combines benefits of multiple topologies & Configuration and maintenance can be challenging \\
+\hline
+\end{tabularx}
+\end{table}
+
+\section{OSI Model}
+
+
+\section{TCP/IP Model}
+
+\section{Comparison between OSI \& TCP/IP}
