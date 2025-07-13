@@ -1,0 +1,39 @@
+# LaTeX intermediate and output files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.run.xml
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# Compiled PDF (optional: ignore if you're building locally only)
+*.pdf
+
+# Editor-specific files
+*.swp
+*.bak
+*.backup
+*~
+# VS Code
+.vscode/
+
+# Mac and Linux metadata
+.DS_Store
+._*
+
+# LaTeX temporary folders (Overleaf-style)
+auto/
+latex.out/
+
+# latexmk
+latexmkrc
